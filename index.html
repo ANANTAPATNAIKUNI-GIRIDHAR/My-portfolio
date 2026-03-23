@@ -1,15 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anantapatnaikuni Giridhar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #FAFAFA;
+      color: #212121;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #3F51B5, #00E676);
+      color: white;
+      padding: 60px 20px;
+    }
+    header img {
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      margin-right: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #3F51B5;
+    }
+    .timeline {
+      border-left: 3px solid #00E676;
+      padding-left: 20px;
+    }
+    .timeline div {
+      margin-bottom: 20px;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      flex: 1 1 250px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .contact-icons a {
+      margin: 0 15px;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #3F51B5;
+      transition: color 0.3s;
+    }
+    .contact-icons a:hover {
+      color: #00E676;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <h2>Education</h2>
-    <p>Aditya Engineering College(A) — M.Tech, Power Electronics and Drives(2020-2022)</p>
-    
-    <!-- Other sections of the portfolio would go here -->
+
+<header>
+  <img src="your-photo.jpg" alt="Giridhar Photo">
+  <div>
+    <h1>Anantapatnaikuni Giridhar</h1>
+    <p>Site Reliability Engineer | Technology Analyst at Infosys</p>
+    <p><em>Building resilient systems with automation, observability, and AI‑driven excellence</em></p>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I’m a Site Reliability Engineer at Infosys, supporting fintech applications at scale. I manage over 250 PCF and VM applications, leveraging tools like Splunk, Grafana, Venafi, Foglight, ITRS, Harness, Bitbucket, Bamboo, and GitHub Actions. My expertise spans SQL DBA, Linux, Windows, and PowerShell scripting. I also design AI‑driven automations to optimize monitoring, incident response, and deployment pipelines.</p>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div><strong>Technology Analyst</strong> (2025–Present)</div>
+    <div><strong>Senior Systems Engineer</strong> (2024–2025)</div>
+    <div><strong>System Engineer</strong> (2022–2024)</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>Electric ATV – EBAJA, SAE India</h3>
+      <p>Sustainable all‑terrain vehicle project, validated by SAEINDIA and APSSDC certificates.</p>
+    </div>
+    <div class="card">
+      <h3>Research Paper</h3>
+      <p>Published in IJCRT (Nov 2022): Improvement of Power Quality Using Hybrid UP‑PWM Scheme for HERIC Inverter with Closed Loop Control.</p>
+      <a href="http://www.ijcrt.org/viewfull.php?&p_id=IJCRT2211059" target="_blank">Read Paper</a>
+    </div>
+    <div class="card">
+      <h3>GitHub Portfolio</h3>
+      <p>Explore my repositories showcasing automation and SRE projects.</p>
+      <a href="https://github.com/ANANTAPATNAIKUNI-GIRIDHAR" target="_blank">Visit GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="volunteering">
+  <h2>Volunteering</h2>
+  <p><strong>National Service Scheme:</strong> Organized community service events.</p>
+  <p><strong>SAEINDIA:</strong> Collaborated on EV projects.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact-icons">
+    <a href="mailto:giripraneet17@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/anantapatnaikuni-giridhar-5965881a7" target="_blank">LinkedIn</a>
+    <a href="https://github.com/ANANTAPATNAIKUNI-GIRIDHAR" target="_blank">GitHub</a>
+  </div>
+</section>
+
 </body>
 </html>
